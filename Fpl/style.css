@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background-color: #37003c;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav label{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    padding: 0px 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+nav ul{
+    float: right;
+}
+nav ul .pp{
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+    line-height: 80px;
+}
+.pp button{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #37003c;
+    border: none;
+    text-transform: capitalize;
+    justify-content: space-around;
+}
+.pp button a{
+    color: #fff;
+}
+.pp button:hover{
+    background-color: #29052c;
+}
+.pp-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    line-height: 20px;
+    overflow: auto;
+}
+.pp:hover .pp-content{
+    display: block;
+    background-color: rgb(240, 63, 172)
+}
+.pp .pp-content a{
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px;
+    text-decoration: none;
+}
+nav ul .pp-content a:hover{
+    background-color: #29052c;
+}
+.head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #37003c;
+    height: 200px;
+    width: 100%;
+}
+.head p{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 200px;
+    text-transform: capitalize;
+    max-width: 90%;
+}
+center{
+    margin: 0 180px;
+    margin-bottom: 180px;
+}
+.signin{
+    font-size: 20px;
+    height: 40px;
+    width: 50%;
+    color: white;
+    background-color: #e5324d;
+    float: left;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.register{
+    font-size: 20px;
+    height: 40px;
+    width: 50%;
+    color: white;
+    background-color: #e5324d;
+    float: right;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.signin .sign{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.signin .sign p{
+    float: left;
+}
+.signin .sign input{
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    background-color: rgb(205, 205, 205);
+    border: none;
+    border-bottom: 1px solid black;
+}
+.signin .sign input:active{
+    background: transparent;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+.signin .same{
+    margin-top: 30px;
+}
+.signin a{
+    float: left;
+    color: #e5324d;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.signin button{
+    color: white;
+    margin-right: 10px;
+    float: right;
+    background-color: #37003c;
+    padding: 8px 70px;
+    border: none;
+}
+.signin .line{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 40px 10px;
+}
+.signin .line p{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+.signin .alt button{
+    color: white;
+    padding: 8px 70px;
+    font-size: 20px;
+    width: 45%;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.signin .top button:first-child{
+    align-content: space-between;
+    float: left;
+    background-color:  #1877F2;
+}
+.signin .top button:last-child{
+    float: right;
+    background-color: #00acee;
+}
+.signin .bottom button:first-child{
+    color: black;
+    float: left;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.signin .bottom button:last-child{
+    float: right;
+    background-color: black;
+}
+.register .signup{
+    background-color: rgb(205, 205, 205);
+}
+.register .signup p{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+.register .signup h3{
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+}
+.register .signup ul{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.register .signup li{
+    margin-bottom: -10px;
+    margin-left: 50px;
+}
+.register button{
+    background-color: #e5324d;
+    height: 30px;
+    font-size: 18px;
+    width: 90%;
+    border: none;
+    color: white;
+    align-items: center;
+    margin-bottom: 22px;
+    margin-top: 20px;
+} 
